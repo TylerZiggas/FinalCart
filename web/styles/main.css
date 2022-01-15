@@ -1,0 +1,65 @@
+body { 
+    background-color: beige;
+    word-wrap: break-word;
+    font-family: Garamond,  serif;
+    font-size: 100%;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+h1 {
+    font-size: 150%;
+    color: purple;
+    margin-bottom: 0.5em;    
+}
+
+p {
+    margin-bottom: 1.0em;  
+    font-weight: bold;
+}
+
+label {
+    float: left;
+    width: 11em;
+    margin-bottom: 1.0em;
+    font-weight: bold;
+}
+
+span {  
+    margin-bottom: 1.0em;    
+}
+
+br {
+    clear: both;
+}
+
+input[type="text"], input[type="email"] {
+    margin-left: 1.0em;    
+    margin-bottom: 1.0em;
+}
+
+.inputLabel {
+    padding-top: 0.25em;
+}
+
+.buttons {
+    margin-left: 0.5em;
+}
+
+.pad_top {
+    padding-top: 0.25em;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 2em;
+}
+
+i {
+    color: red;
+}
